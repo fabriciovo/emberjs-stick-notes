@@ -1,0 +1,9 @@
+<h1>Stick Notes</h1>
+
+{{#each this.model as |stickNote|}}
+  <LinkTo @route="stick-note" @model={{stickNote}}>
+    {{stickNote.title}}
+  </LinkTo>
+{{/each}}
+
+{{outlet}}
