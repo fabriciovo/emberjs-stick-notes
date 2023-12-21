@@ -1,5 +1,5 @@
-import Application from 'emberjs-awesome-3d-page/app';
-import config from 'emberjs-awesome-3d-page/config/environment';
+import Application from 'emberjs-stick-note/app';
+import config from 'emberjs-stick-note/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';

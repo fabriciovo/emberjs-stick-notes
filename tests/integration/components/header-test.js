@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { setupRenderingTest } from 'emberjs-awesome-3d-page/tests/helpers';
+import { setupRenderingTest } from 'emberjs-stick-note/tests/helpers';
 import { render } from '@ember/test-helpers';
 import { hbs } from 'ember-cli-htmlbars';
 

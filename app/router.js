@@ -1,5 +1,5 @@
 import EmberRouter from '@ember/routing/router';
-import config from 'emberjs-awesome-3d-page/config/environment';
+import config from 'emberjs-stick-note/config/environment';
 
 export default class Router extends EmberRouter {
   location = config.locationType;

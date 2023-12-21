@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   const ENV = {
-    modulePrefix: 'emberjs-awesome-3d-page',
+    modulePrefix: 'emberjs-stick-note',
     environment,
     rootURL: '/',
     locationType: 'history',

@@ -1,5 +1,5 @@
 import { module, test } from 'qunit';
-import { setupTest } from 'emberjs-awesome-3d-page/tests/helpers';
+import { setupTest } from 'emberjs-stick-note/tests/helpers';
 
 module('Unit | Route | stick-note', function (hooks) {
   setupTest(hooks);

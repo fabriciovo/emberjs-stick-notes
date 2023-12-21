@@ -1,6 +1,6 @@
 import Model, { attr } from '@ember-data/model';
 
-export default class CardModel extends Model {
+export default class StickNoteModel extends Model {
   @attr('string') title;
   @attr('string') content;
 }

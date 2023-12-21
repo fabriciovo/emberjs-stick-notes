@@ -1,0 +1,11 @@
+<h1>Stick Notes</h1>
+<Header @addNewStickNote={{this.addNewStickNote}} />
+
+{{#each this.model as |stickNote|}}
+  <div>
+    {{stickNote.title}}
+    {{stickNote.content}}
+  </div>
+{{/each}}
+
+{{outlet}}
